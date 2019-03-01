@@ -1,0 +1,64 @@
+  .carousel-caption {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.card-img-top
+{
+  opacity: 0.8;
+  width: 100%
+}
+
+.gcReward
+{
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(250, 250, 250, 0.6);
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.gcReward p
+{
+  margin: 0;
+  text-align: center;
+  font-size: 130%
+}
+
+.gc
+{
+  color: orange;
+}
+
+.nameWanted
+{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card-img-top:hover
+{
+  opacity: 1;
+}
+
+.card:hover .gcReward
+{
+  display: none;
+}
+
+.card:hover .nameWanted
+{
+  bottom: 20% !important;
+  font-size: 2em !important;
+}
+
